@@ -1,0 +1,22 @@
+{
+  "name": "chappie-discordbot",
+  "version": "1.0.0",
+  "description": "My first discord bot. In the way to discover Discord.js module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enzo-billis/Chappie-DiscordBot.git"
+  },
+  "author": "Enzo BILLIS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enzo-billis/Chappie-DiscordBot/issues"
+  },
+  "homepage": "https://github.com/enzo-billis/Chappie-DiscordBot#readme",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  }
+}
