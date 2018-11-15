@@ -10,6 +10,34 @@ module.exports = class chappie {
       })
         .then()
         .catch(console.error)
+      return true
+    }
+    else if(args[0] === "papa"){
+      message.channel.send({
+        files:["images/Chappie/chappie-dad.jpg"]
+      })
+        .then()
+        .catch(console.error)
+      return true
+    }
+    else if(args[0] === "famille"){
+      message.channel.send({
+        files:["images/Chappie/chappie-family.jpg"]
+      })
+        .then()
+        .catch(console.error)
+      return true
+    }
+    else if(args.includes("bye")){
+     message.reply("Bisous °~°")
+      return true
+    }
+    else if(args.includes("coucou")){
+      message.reply("Coucou toi °~°")
+      return true
+    }
+    else{
+      message.reply("Chappie pas comprendre....")
     }
   }
 }
