@@ -19,9 +19,11 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "fs": "0.0.1-security",
+    "karp-rabin-search": "^1.0.6",
     "node-gyp": "^3.8.0",
     "opusscript": "0.0.6",
     "rebuild": "^0.1.2",
+    "underscore": "^1.9.1",
     "ytdl-core": "^0.28.0"
   }
 }
