@@ -7,11 +7,11 @@ client.login('NTEyNTkwMDM2MjQ4NTU5NjI2.Ds7uUg.epxekxFrrz83Wdkzdm6YXza1pA0')
   .catch(console.error)
 
 client.on('ready', () => {
-  // client.channels.first().children.first().send("Yo Yo Yo, Chappie est dans la place")
-  //   .then()
-  //   .catch(console.error)
+    client.channels.find("type","text").send("Yo Yo Yo, Chappie est dans la place")
+    .then()
+    .catch(console.error)
 })
 
 client.on('message', (message) =>{
-  Command.parseCommand(message)
-})
+    message.content[0] === "!" ? Command.parseCommand(message) : null
+});
