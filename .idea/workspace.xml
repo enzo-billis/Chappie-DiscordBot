@@ -16,6 +16,7 @@
     <session id="-50993318">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
@@ -255,18 +256,29 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1542280891068</updated>
+<<<<<<< Updated upstream
       <workItem from="1542280892354" duration="11171000" />
       <workItem from="1542314490668" duration="2894000" />
       <workItem from="1542317867396" duration="7116000" />
+=======
+      <workItem from="1542280892354" duration="11212000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="21181000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
+=======
+    <option name="totallyTimeSpent" value="11212000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1358" y="-742" width="1936" height="1056" extended-state="6" />
+>>>>>>> Stashed changes
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
