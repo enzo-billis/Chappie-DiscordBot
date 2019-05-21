@@ -2,7 +2,7 @@ const Discord = require('discord.js')
 const client = new Discord.Client()
 const Command = require('./commands/command')
 
-client.login('NTEyNTkwMDM2MjQ4NTU5NjI2.Ds7uUg.epxekxFrrz83Wdkzdm6YXza1pA0')
+client.login('[INSERT_DISCORD_API_KEY]')
   .then()
   .catch(console.error)
 
